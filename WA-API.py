@@ -3,15 +3,16 @@ import xmltodict
 import secrets
 
 
-class WEBCONRTOL:
-    def __init__(self, ip_address, zipcode):
-        self.device_address = 'http://' + ip_address + '/mml.do'
-        self.email = secrets['email']
-        self.user_name = secrets['user']
-        self.ssid = secrets['ssid']
-        self.password = secrets['password']
-        self.api_key = secrets['api_key']
-        self.zipcode = secrets['zipcode']
+class API:
+    def __init__(self):
+        self.device_address = 'http://' + \
+            secrets.vars['ip_address'] + '/mml.do'
+        self.email = secrets.vars['email']
+        self.user_name = secrets.vars['user']
+        self.ssid = secrets.vars['ssid']
+        self.password = secrets.vars['password']
+        self.api_key = secrets.vars['api_key']
+        self.zipcode = secrets.vars['zipcode']
         self.connect()
         self.frequencies = ("57000000,6000000,"
                             "63000000,6000000,"
@@ -255,5 +256,4 @@ class WEBCONRTOL:
 
 
 if __name__ == "__main__":
-    WA_Antenna = WEBCONRTOL('192.168.1.143', '85024')
-    WA_Antenna.connect()
+    WA_Antenna = API()
