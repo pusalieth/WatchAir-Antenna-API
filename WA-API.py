@@ -107,7 +107,7 @@ class API():
             'sessionid': str(self.sessionid)
         }
         self.mode = self.sendCMD(para)
-        print(self.status)
+        print(self.mode)
 
     def setINAmode(self):
         params = {
@@ -125,11 +125,12 @@ class API():
         self.device_info = self.sendCMD(para)['MML']['Body']['DeviceInfo']
         print(self.device_info)
 
-    def getServiceInformationLists(self):
+    def getServiceInformationLists(self, uniqueid=None):
+        uniqueid = '53300301'
         para = {
             'cmd': 'getserviceinformationlists',
             'sessionid': str(self.sessionid),
-            'uniqueid': '53300301'
+            'uniqueid': "%s" % uniqueid
         }
         self.service = self.sendCMD(para)
         print(self.service)
@@ -204,13 +205,13 @@ class API():
         }
         self.firmware = self.sendCMD(params)
 
-    def streamVideo(self, uniqueid, frequency, channel_ts_id): # needs work to be dynamic
+    def streamVideo(self, uniqueid=None, frequency=None, channel_ts_id=None): # needs work to be dynamic
         uniqueid = '53300301'
         frequency = '533000000'
         channel_ts_id = '187'
         params = {
             'cmd': 'startstreamingdata',
-            'sessionid': str(uniqueid),
+            'sessionid': str(self.sessionid),
             'uniqueid': '%s' % str(uniqueid),
             'freq': '%s' % str(frequency),
             'channeltsid': '%s' % str(channel_ts_id),
