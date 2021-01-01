@@ -204,14 +204,16 @@ class API():
         }
         self.firmware = self.sendCMD(params)
 
-    def streamVideo(self, frequency):
-        frequency = 533000000
+    def streamVideo(self, uniqueid, frequency, channel_ts_id): # needs work to be dynamic
+        uniqueid = '53300301'
+        frequency = '533000000'
+        channel_ts_id = '187'
         params = {
             'cmd': 'startstreamingdata',
-            'sessionid': str(self.sessionid),
-            'uniqueid': '53300301',
-            'freq': '%s' % str(frequency),  # needs work to be dynamic
-            'channeltsid': '187',
+            'sessionid': str(uniqueid),
+            'uniqueid': '%s' % str(uniqueid),
+            'freq': '%s' % str(frequency),
+            'channeltsid': '%s' % str(channel_ts_id),
             'sourceId': '1',
             'force': '0',
             'tvbps': '5000000',
