@@ -300,6 +300,26 @@ class API():
 
         return xmltodict.parse(response.text)
 
+    def newShowListings(self, zipcode=None):
+        url = 'http://data.tmsapi.com/v1.1/programs/newShowAirings'
+        PARAMS = {
+            'lineupId': 'USA-OTA%s' % self.zipcode,
+            'startDateTime': "%s" % datetime.datetime.now().strftime("%Y-%m-%dT%H:00Z"),
+            'api_key': self.api_key
+        }
+        response = requests.get(url, params=PARAMS)
+        if(self.debug):
+            print("Request made: %s?%s" % (url, urllib.parse.urlencode(PARAMS)))
+            if(len(response.text) > 100):
+                with open('response.json', 'wb') as file:
+                    file.write(response.content)
+            else:
+                print("Response from request: \n%s" % response.text)
+            print("End of Response")
+
+        return response.text
+
+
 
 if __name__ == "__main__":
     WA_Antenna = API(sys.argv)

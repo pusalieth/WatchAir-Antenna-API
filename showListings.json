@@ -1,0 +1,2707 @@
+[
+    {
+        "startTime": "2021-01-01T12:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "Live",
+            "New"
+        ],
+        "channels": [
+            "51.5"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "SH037232490000",
+            "rootId": "19255866",
+            "seriesId": "19255866",
+            "subType": "Series",
+            "title": "Fri-YAY! Fashion Deals With Leah Williams",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-02",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Fashion"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19255866_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "82678",
+        "station": {
+            "stationId": "82678",
+            "callSign": "KPPXDT5",
+            "affiliateCallSign": "QVC",
+            "affiliateId": "11069",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s11069_ll_h3_ad.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "51.5"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T13:30Z",
+        "duration": 30,
+        "qualifiers": [
+            "CC",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "21.2"
+        ],
+        "partNum": {
+            "part": 1,
+            "totalParts": 3
+        },
+        "program": {
+            "tmsId": "EP011434541772",
+            "rootId": "19268931",
+            "seriesId": "3504541",
+            "subType": "Series",
+            "title": "Joseph Prince",
+            "episodeTitle": "(Part 1 of 3) Strong Encouragement in Times of Famine",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Religious"
+            ],
+            "partNum": {
+                "part": 1,
+                "totalParts": 3
+            },
+            "longDescription": "Being reassured of God's promise to provide in times of famine in a faith-building message.",
+            "shortDescription": "Being reassured of God's promise to provide in times of famine in a faith-building message.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Joseph Prince"
+            ],
+            "ratings": [
+                {
+                    "body": "Australian Classification Board",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p3504541_i_v5_aa.jpg",
+                "category": "Iconic",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "58706",
+        "station": {
+            "stationId": "58706",
+            "callSign": "KPAZDT2",
+            "affiliateCallSign": "HILLSNG",
+            "affiliateId": "29328",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s29328_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "21.2"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "HD 1080i",
+            "New"
+        ],
+        "channels": [
+            "5.1"
+        ],
+        "program": {
+            "tmsId": "SH036679780000",
+            "rootId": "19049798",
+            "seriesId": "19049798",
+            "subType": "Series",
+            "title": "Good Morning Arizona at 6am",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19049798_st_v5_aa.jpg",
+                "category": "Staple",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "21293",
+        "station": {
+            "stationId": "21293",
+            "callSign": "KPHODT",
+            "affiliateCallSign": "CBS",
+            "affiliateId": "10098",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28711_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "5.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "New"
+        ],
+        "channels": [
+            "13.1"
+        ],
+        "program": {
+            "tmsId": "SH006456950000",
+            "rootId": "825483",
+            "seriesId": "825483",
+            "subType": "Series",
+            "title": "News 13 This Morning",
+            "releaseYear": 2004,
+            "releaseDate": "2004-02-22",
+            "origAirDate": "2004-02-22",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "Morning news update.",
+            "shortDescription": "Morning news update.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p825483_b_v5_ad.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "32484",
+        "station": {
+            "stationId": "32484",
+            "callSign": "KOLDDT",
+            "affiliateCallSign": "CBS",
+            "affiliateId": "10098",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28711_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "13.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T13:30Z",
+        "duration": 30,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "HDTV",
+            "New"
+        ],
+        "channels": [
+            "21.1"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "SH003132850000",
+            "rootId": "657716",
+            "seriesId": "657716",
+            "subType": "Series",
+            "title": "Dr. Robert Jeffress",
+            "releaseYear": 1999,
+            "releaseDate": "1999-04-25",
+            "origAirDate": "1999-04-25",
+            "titleLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Religious"
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p657716_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "34810",
+        "station": {
+            "stationId": "34810",
+            "callSign": "KPAZDT",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s14767_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "21.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T17:00Z",
+        "duration": 240,
+        "qualifiers": [
+            "HD 1080i",
+            "Live",
+            "New"
+        ],
+        "channels": [
+            "33.1"
+        ],
+        "program": {
+            "tmsId": "EP002191530650",
+            "rootId": "19271994",
+            "seriesId": "226569",
+            "subType": "Series",
+            "title": "\u00a1Despierta Am\u00e9rica!",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "es",
+            "descriptionLang": "es",
+            "entityType": "Episode",
+            "genres": [
+                "Talk",
+                "Variety"
+            ],
+            "longDescription": "Revista matutina con noticias, temas de actualidad, reportajes de far\u00e1ndula, m\u00fasica e informaci\u00f3n pr\u00e1ctica.",
+            "shortDescription": "Revista matutina con noticias, temas de actualidad, reportajes de far\u00e1ndula y m\u00fasica.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Alan Tacher",
+                "Karla Mart\u00ednez",
+                "Satcha Pretto"
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p226569_b_v5_ak.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "35156",
+        "station": {
+            "stationId": "35156",
+            "callSign": "KTVWDT",
+            "affiliateCallSign": "UNI",
+            "affiliateId": "11118",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s11118_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "33.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "HDTV",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "4.1"
+        ],
+        "program": {
+            "tmsId": "SH008093690000",
+            "rootId": "967268",
+            "seriesId": "967268",
+            "subType": "Series",
+            "title": "Tucson Today at 6am",
+            "releaseYear": 2006,
+            "releaseDate": "2006-01-09",
+            "origAirDate": "2006-01-09",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "The news 4 Tucson Today team offers the latest local, regional, statewide and national news events of the day, as well as detailed and timely updates on Tucson area weather conditions and early traffic issues facing commuters and sports news.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p967268_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "42676",
+        "station": {
+            "stationId": "42676",
+            "callSign": "KVOADT",
+            "affiliateCallSign": "NBC",
+            "affiliateId": "10991",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28717_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "4.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "HD 1080i",
+            "New"
+        ],
+        "channels": [
+            "12.1"
+        ],
+        "program": {
+            "tmsId": "SH030862030000",
+            "rootId": "16194947",
+            "seriesId": "16194947",
+            "subType": "Series",
+            "title": "Today in AZ",
+            "releaseYear": 2018,
+            "releaseDate": "2018-10-22",
+            "origAirDate": "2018-10-22",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "Local and regional news coverage.",
+            "shortDescription": "Local and regional news coverage.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p16194947_st_v5_aa.jpg",
+                "category": "Staple",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "20507",
+        "station": {
+            "stationId": "20507",
+            "callSign": "KPNXDT",
+            "affiliateCallSign": "NBC",
+            "affiliateId": "10991",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28717_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "12.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "7.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP037199200002",
+            "rootId": "19243286",
+            "seriesId": "19243283",
+            "subType": "Series",
+            "title": "Wake Up Beautiful with Valerie - Special Edition",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "The buzz on beauty, tried and true favorites, and beauty bag must-haves with show host Valerie.",
+            "shortDescription": "The buzz on beauty, tried and true favorites, and beauty bag must-haves with show host Valerie.",
+            "topCast": [
+                "Valerie Stup",
+                "Marilyn Miglin"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19243283_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "72529",
+        "station": {
+            "stationId": "72529",
+            "callSign": "KAZTCD3",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "7.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP037199200002",
+            "rootId": "19243286",
+            "seriesId": "19243283",
+            "subType": "Series",
+            "title": "Wake Up Beautiful with Valerie - Special Edition",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "The buzz on beauty, tried and true favorites, and beauty bag must-haves with show host Valerie.",
+            "shortDescription": "The buzz on beauty, tried and true favorites, and beauty bag must-haves with show host Valerie.",
+            "topCast": [
+                "Valerie Stup",
+                "Marilyn Miglin"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19243283_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "72186",
+        "station": {
+            "stationId": "72186",
+            "callSign": "KAZTDT3",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "10.1"
+        ],
+        "program": {
+            "tmsId": "SH017719860000",
+            "rootId": "10106458",
+            "seriesId": "10106458",
+            "subType": "Series",
+            "title": "FOX 10 Arizona Morning at 6am",
+            "releaseYear": 2013,
+            "releaseDate": "2013-07-22",
+            "origAirDate": "2013-07-22",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "News coverage to start the day.",
+            "shortDescription": "News coverage to start the day.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p10106458_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "21209",
+        "station": {
+            "stationId": "21209",
+            "callSign": "KSAZDT",
+            "affiliateCallSign": "FOX",
+            "affiliateId": "10212",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28719_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "10.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "New"
+        ],
+        "channels": [
+            "15.1"
+        ],
+        "program": {
+            "tmsId": "SH016105810000",
+            "rootId": "9444307",
+            "seriesId": "9444307",
+            "subType": "Series",
+            "title": "ABC15 Mornings",
+            "releaseYear": 2012,
+            "releaseDate": "2012-08-27",
+            "origAirDate": "2012-08-27",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "News coverage to start the day.",
+            "shortDescription": "News coverage to start the day.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p9444307_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "21210",
+        "station": {
+            "stationId": "21210",
+            "callSign": "KNXVDT",
+            "affiliateCallSign": "ABC",
+            "affiliateId": "10003",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28708_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "15.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 180,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "39.1"
+        ],
+        "program": {
+            "tmsId": "SH010748820000",
+            "rootId": "257501",
+            "seriesId": "257501",
+            "subType": "Series",
+            "title": "Un nuevo d\u00eda",
+            "releaseYear": 2011,
+            "releaseDate": "2011",
+            "origAirDate": "2011-01-01",
+            "titleLang": "es",
+            "descriptionLang": "es",
+            "entityType": "Show",
+            "genres": [
+                "Talk",
+                "Variety",
+                "Entertainment",
+                "News"
+            ],
+            "longDescription": "El show de variedad diario matutino, que se transmite en vivo, provee las noticias de primera plana, locales e internacionales, el pron\u00f3stico del clima, entrevistas con actores, cantantes, escritores, pol\u00edticos y personas famosas en general, adem\u00e1s se tratan temas que le interesan al p\u00fablico en general con expertos en la materia a tratar, como las relaciones interpersonales, la pareja, la familia, la salud, moda, estilos de vida, productos de consumo, las leyes de inmigraci\u00f3n, el mundo del entretenimiento y sus chismes, entre otros. Un programa ameno, polifac\u00e9tico y entretenido, dirigido a toda la familia y que a la vez ayuda a la audiencia, a trav\u00e9s de la presentaci\u00f3n de informaci\u00f3n muy valiosa.",
+            "shortDescription": "Noticias de actualidad y del espect\u00e1culo, con historias originales.",
+            "topCast": [
+                "Adamari L\u00f3pez",
+                "Chiquibaby"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVPG"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "PG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p257501_b_v5_ab.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "63057",
+        "station": {
+            "stationId": "63057",
+            "callSign": "KTAZDT",
+            "affiliateCallSign": "TELE",
+            "affiliateId": "10239",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s73245_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "39.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "10.2"
+        ],
+        "program": {
+            "tmsId": "SH017719860000",
+            "rootId": "10106458",
+            "seriesId": "10106458",
+            "subType": "Series",
+            "title": "FOX 10 Arizona Morning at 6am",
+            "releaseYear": 2013,
+            "releaseDate": "2013-07-22",
+            "origAirDate": "2013-07-22",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "News coverage to start the day.",
+            "shortDescription": "News coverage to start the day.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p10106458_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "49084",
+        "station": {
+            "stationId": "49084",
+            "callSign": "KUTPDT2",
+            "affiliateCallSign": "FOX",
+            "affiliateId": "10212",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10212_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "10.2"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T14:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "61.2"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP037199200002",
+            "rootId": "19243286",
+            "seriesId": "19243283",
+            "subType": "Series",
+            "title": "Wake Up Beautiful with Valerie - Special Edition",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "The buzz on beauty, tried and true favorites, and beauty bag must-haves with show host Valerie.",
+            "shortDescription": "The buzz on beauty, tried and true favorites, and beauty bag must-haves with show host Valerie.",
+            "topCast": [
+                "Valerie Stup",
+                "Marilyn Miglin"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19243283_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "97506",
+        "station": {
+            "stationId": "97506",
+            "callSign": "KASWDT2",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "61.2"
+        }
+    },
+    {
+        "startTime": "2021-01-01T13:00Z",
+        "endTime": "2021-01-01T15:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "48.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP025296161447",
+            "rootId": "19225233",
+            "seriesId": "13370000",
+            "subType": "Series",
+            "title": "Silver Showcase Jewelry",
+            "episodeTitle": "Silver Showcase with Dawn (Jan 1st, 2021 08:00)",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Shop fantastic values in timeless yet trendy sterling silver jewelry and gemstones. Then wow your friends with your new looks!",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Dawn Tesh"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p13370000_b_v5_ae.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "107789",
+        "station": {
+            "stationId": "107789",
+            "callSign": "KDPHLD3",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s16604_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "48.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "HDTV",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "5.1"
+        ],
+        "program": {
+            "tmsId": "EP015057882394",
+            "rootId": "18947142",
+            "seriesId": "8970471",
+            "subType": "Series",
+            "title": "CBS This Morning",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Talk",
+                "News"
+            ],
+            "longDescription": "Daily news, developing stories and interviews with newsmakers.",
+            "shortDescription": "Daily news, developing stories and interviews with newsmakers.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Gayle King",
+                "Anthony Mason",
+                "Tony Dokoupil"
+            ],
+            "ratings": [
+                {
+                    "body": "Australian Classification Board",
+                    "code": "PG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p8970471_b_v5_aj.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "21293",
+        "station": {
+            "stationId": "21293",
+            "callSign": "KPHODT",
+            "affiliateCallSign": "CBS",
+            "affiliateId": "10098",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28711_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "5.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "HD 1080i",
+            "New"
+        ],
+        "channels": [
+            "61.1"
+        ],
+        "program": {
+            "tmsId": "SH034864470000",
+            "rootId": "18185872",
+            "seriesId": "18185872",
+            "subType": "Series",
+            "title": "ABC15 News on CW61",
+            "releaseYear": 2020,
+            "releaseDate": "2020-04-06",
+            "origAirDate": "2020-04-06",
+            "titleLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p18185872_st_v5_aa.jpg",
+                "category": "Staple",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "30818",
+        "station": {
+            "stationId": "30818",
+            "callSign": "KASWDT",
+            "affiliateCallSign": "CW",
+            "affiliateId": "51306",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s53098_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "61.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "HDTV",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "13.1"
+        ],
+        "program": {
+            "tmsId": "EP015057882394",
+            "rootId": "18947142",
+            "seriesId": "8970471",
+            "subType": "Series",
+            "title": "CBS This Morning",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Talk",
+                "News"
+            ],
+            "longDescription": "Daily news, developing stories and interviews with newsmakers.",
+            "shortDescription": "Daily news, developing stories and interviews with newsmakers.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Gayle King",
+                "Anthony Mason",
+                "Tony Dokoupil"
+            ],
+            "ratings": [
+                {
+                    "body": "Australian Classification Board",
+                    "code": "PG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p8970471_b_v5_aj.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "32484",
+        "station": {
+            "stationId": "32484",
+            "callSign": "KOLDDT",
+            "affiliateCallSign": "CBS",
+            "affiliateId": "10098",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28711_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "13.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T14:30Z",
+        "duration": 30,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "HDTV",
+            "New"
+        ],
+        "channels": [
+            "21.1"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "SH006211840000",
+            "rootId": "186538",
+            "seriesId": "186538",
+            "subType": "Series",
+            "title": "Creflo Dollar",
+            "releaseYear": 2015,
+            "releaseDate": "2015",
+            "origAirDate": "2015-02-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Religious"
+            ],
+            "longDescription": "Dr. Creflo Dollar ministers to people from all backgrounds with hopes for change. Creflo helps viewers find ways to renew their faith, mind and spirit. Based on the belief that the Bible is the written and inspired Word of God the show is meant to invoke change in the lives of people across the globe. Creflo and his wife, Taffi, share their vision for everyone to hear the Word and gain understanding of God's love and promises.",
+            "shortDescription": "Join the dynamic leadership and teaching of Dr. Creflo and Taffi Dollar.",
+            "topCast": [
+                "Creflo A. Dollar",
+                "Taffi Dollar"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "Film & Publication Board",
+                    "code": "A"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Australian Classification Board",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p186538_b_v5_af.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "34810",
+        "station": {
+            "stationId": "34810",
+            "callSign": "KPAZDT",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s14767_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "21.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "HDTV",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "4.1"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP019152143640",
+            "rootId": "18947046",
+            "seriesId": "184072",
+            "subType": "Series",
+            "title": "Today",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Talk",
+                "News"
+            ],
+            "longDescription": "Three things to watch in politics, health, the economy, travel and sports; small business trends for 2021.",
+            "shortDescription": "Three things to watch in politics, health, the economy, travel and sports; small business trends.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Savannah Guthrie",
+                "Hoda Kotb",
+                "Craig Melvin"
+            ],
+            "ratings": [
+                {
+                    "body": "Australian Classification Board",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p184072_b_v5_ah.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "42676",
+        "station": {
+            "stationId": "42676",
+            "callSign": "KVOADT",
+            "affiliateCallSign": "NBC",
+            "affiliateId": "10991",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28717_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "4.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 1080i",
+            "HDTV",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "12.1"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP019152143640",
+            "rootId": "18947046",
+            "seriesId": "184072",
+            "subType": "Series",
+            "title": "Today",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Talk",
+                "News"
+            ],
+            "longDescription": "Three things to watch in politics, health, the economy, travel and sports; small business trends for 2021.",
+            "shortDescription": "Three things to watch in politics, health, the economy, travel and sports; small business trends.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "Savannah Guthrie",
+                "Hoda Kotb",
+                "Craig Melvin"
+            ],
+            "ratings": [
+                {
+                    "body": "Australian Classification Board",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p184072_b_v5_ah.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "20507",
+        "station": {
+            "stationId": "20507",
+            "callSign": "KPNXDT",
+            "affiliateCallSign": "NBC",
+            "affiliateId": "10991",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 1080i",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28717_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "12.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T15:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "7.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP015414770299",
+            "rootId": "19240696",
+            "seriesId": "9130727",
+            "subType": "Series",
+            "title": "PRAI Beauty",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Age-defying skin care infused with an exclusive, signature ingredient of Prai Root essence; skin care with high-performance ingredients and innovative technology offers women of all ages a vast array of product with results-oriented formulas.",
+            "shortDescription": "Age-defying skin care infused with an exclusive, signature ingredient of Prai Root essence.",
+            "episodeNum": 8,
+            "seasonNum": 2021,
+            "topCast": [
+                "Valerie Stup"
+            ],
+            "ratings": [
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p9130727_b_v5_af.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "72529",
+        "station": {
+            "stationId": "72529",
+            "callSign": "KAZTCD3",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T15:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "7.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP015414770299",
+            "rootId": "19240696",
+            "seriesId": "9130727",
+            "subType": "Series",
+            "title": "PRAI Beauty",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Age-defying skin care infused with an exclusive, signature ingredient of Prai Root essence; skin care with high-performance ingredients and innovative technology offers women of all ages a vast array of product with results-oriented formulas.",
+            "shortDescription": "Age-defying skin care infused with an exclusive, signature ingredient of Prai Root essence.",
+            "episodeNum": 8,
+            "seasonNum": 2021,
+            "topCast": [
+                "Valerie Stup"
+            ],
+            "ratings": [
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p9130727_b_v5_af.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "72186",
+        "station": {
+            "stationId": "72186",
+            "callSign": "KAZTDT3",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "10.1"
+        ],
+        "program": {
+            "tmsId": "SH017719890000",
+            "rootId": "10106467",
+            "seriesId": "10106467",
+            "subType": "Series",
+            "title": "FOX 10 Arizona Morning",
+            "releaseYear": 2013,
+            "releaseDate": "2013-07-22",
+            "origAirDate": "2013-07-22",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "Local news coverage.",
+            "shortDescription": "Local news coverage.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p10106467_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "21209",
+        "station": {
+            "stationId": "21209",
+            "callSign": "KSAZDT",
+            "affiliateCallSign": "FOX",
+            "affiliateId": "10212",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28719_ll_h3_ac.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "10.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "HDTV",
+            "New"
+        ],
+        "channels": [
+            "15.1"
+        ],
+        "program": {
+            "tmsId": "EP000018939257",
+            "rootId": "18903355",
+            "seriesId": "184220",
+            "subType": "Series",
+            "title": "Good Morning America",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Talk",
+                "News"
+            ],
+            "longDescription": "King & Country performs; 2021 fashion trends with Lori Bergamotto.",
+            "shortDescription": "King & Country performs; 2021 fashion trends with Lori Bergamotto.",
+            "episodeNum": 1,
+            "seasonNum": 2021,
+            "topCast": [
+                "George Stephanopoulos",
+                "Robin Roberts",
+                "Michael Strahan"
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p184220_b_v5_ah.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "21210",
+        "station": {
+            "stationId": "21210",
+            "callSign": "KNXVDT",
+            "affiliateCallSign": "ABC",
+            "affiliateId": "10003",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s28708_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "15.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "New",
+            "Stereo"
+        ],
+        "channels": [
+            "10.2"
+        ],
+        "program": {
+            "tmsId": "SH017719890000",
+            "rootId": "10106467",
+            "seriesId": "10106467",
+            "subType": "Series",
+            "title": "FOX 10 Arizona Morning",
+            "releaseYear": 2013,
+            "releaseDate": "2013-07-22",
+            "origAirDate": "2013-07-22",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "News"
+            ],
+            "longDescription": "Local news coverage.",
+            "shortDescription": "Local news coverage.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p10106467_b_v5_aa.jpg",
+                "category": "Banner-L2",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "49084",
+        "station": {
+            "stationId": "49084",
+            "callSign": "KUTPDT2",
+            "affiliateCallSign": "FOX",
+            "affiliateId": "10212",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10212_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "10.2"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T15:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "Live",
+            "New"
+        ],
+        "channels": [
+            "38.4"
+        ],
+        "program": {
+            "tmsId": "EP031095870001",
+            "rootId": "16306439",
+            "seriesId": "16306437",
+            "subType": "Series",
+            "title": "Quantum Vaccum",
+            "episodeTitle": "Wonder.Full. New Years Weekend.",
+            "releaseYear": 2018,
+            "releaseDate": "2018",
+            "origAirDate": "2018-12-30",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Quantum Vaccum.",
+            "shortDescription": "Quantum Vaccum.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p16306437_b_v5_ab.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "74521",
+        "station": {
+            "stationId": "74521",
+            "callSign": "K14RKD4",
+            "affiliateId": "Independent",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "uri": "sources/generic/generic_sources_h3.png"
+            },
+            "channel": "38.4"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T15:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "Live",
+            "New"
+        ],
+        "channels": [
+            "51.5"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "SH033957910000",
+            "rootId": "17733494",
+            "seriesId": "17733494",
+            "subType": "Series",
+            "title": "Powered by Plants -- Meals & Snacks",
+            "releaseYear": 2020,
+            "releaseDate": "2020-01-05",
+            "origAirDate": "2020-01-05",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Tasty, vegetarian food options.",
+            "shortDescription": "Tasty, vegetarian food options.",
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p17733494_b_v5_ac.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "82678",
+        "station": {
+            "stationId": "82678",
+            "callSign": "KPPXDT5",
+            "affiliateCallSign": "QVC",
+            "affiliateId": "11069",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s11069_ll_h3_ad.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "51.5"
+        }
+    },
+    {
+        "startTime": "2021-01-01T14:00Z",
+        "endTime": "2021-01-01T15:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "61.2"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP015414770299",
+            "rootId": "19240696",
+            "seriesId": "9130727",
+            "subType": "Series",
+            "title": "PRAI Beauty",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Age-defying skin care infused with an exclusive, signature ingredient of Prai Root essence; skin care with high-performance ingredients and innovative technology offers women of all ages a vast array of product with results-oriented formulas.",
+            "shortDescription": "Age-defying skin care infused with an exclusive, signature ingredient of Prai Root essence.",
+            "episodeNum": 8,
+            "seasonNum": 2021,
+            "topCast": [
+                "Valerie Stup"
+            ],
+            "ratings": [
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p9130727_b_v5_af.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "97506",
+        "station": {
+            "stationId": "97506",
+            "callSign": "KASWDT2",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "61.2"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "HD 720p",
+            "New"
+        ],
+        "channels": [
+            "7.1"
+        ],
+        "program": {
+            "tmsId": "SH029508640000",
+            "rootId": "15424850",
+            "seriesId": "15424850",
+            "subType": "Series",
+            "title": "AZ Daily Mix--Live",
+            "releaseYear": 2018,
+            "releaseDate": "2018-04-16",
+            "origAirDate": "2018-04-16",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Talk"
+            ],
+            "longDescription": "A LIVE local, entertaining, and informative look at trending topics and community events in Arizona.",
+            "shortDescription": "A LIVE local, entertaining, and informative look at trending topics and community events in Arizona.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p15424850_st_v5_ab.jpg",
+                "category": "Staple",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "32426",
+        "station": {
+            "stationId": "32426",
+            "callSign": "KAZTDT",
+            "affiliateId": "Independent",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10784_ll_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "HD 720p",
+            "New"
+        ],
+        "channels": [
+            "7.1"
+        ],
+        "program": {
+            "tmsId": "SH029508640000",
+            "rootId": "15424850",
+            "seriesId": "15424850",
+            "subType": "Series",
+            "title": "AZ Daily Mix--Live",
+            "releaseYear": 2018,
+            "releaseDate": "2018-04-16",
+            "origAirDate": "2018-04-16",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Talk"
+            ],
+            "longDescription": "A LIVE local, entertaining, and informative look at trending topics and community events in Arizona.",
+            "shortDescription": "A LIVE local, entertaining, and informative look at trending topics and community events in Arizona.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p15424850_st_v5_ab.jpg",
+                "category": "Staple",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "63147",
+        "station": {
+            "stationId": "63147",
+            "callSign": "KAZTCD",
+            "affiliateId": "Independent",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10784_ll_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T15:30Z",
+        "duration": 30,
+        "qualifiers": [
+            "CC",
+            "HD 720p",
+            "HDTV",
+            "New"
+        ],
+        "channels": [
+            "21.1"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "SH002830790000",
+            "rootId": "186405",
+            "seriesId": "186405",
+            "subType": "Series",
+            "title": "Joel Osteen",
+            "releaseYear": 1999,
+            "releaseDate": "1999-10-03",
+            "origAirDate": "1999-10-03",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Show",
+            "genres": [
+                "Religious"
+            ],
+            "longDescription": "Author and evangelist Joel Osteen spreads his message of love and hope as he preaches at the 30,000-plus member Lakewood Church in Houston. The program can be seen in more than 100 countries. Osteen urges people to live at their full potential and form a close relationship with God.",
+            "shortDescription": "Pastor Joel Osteen preaches in Houston.",
+            "topCast": [
+                "Joel Osteen"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVPG"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "PG"
+                },
+                {
+                    "body": "Australian Classification Board",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p186405_b_v5_af.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "34810",
+        "station": {
+            "stationId": "34810",
+            "callSign": "KPAZDT",
+            "videoQuality": {
+                "signalType": "Digital",
+                "truResolution": "HD 720p",
+                "videoType": "HDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s14767_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "21.1"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "7.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP037168040001",
+            "rootId": "19229584",
+            "seriesId": "19229583",
+            "subType": "Series",
+            "title": "Create The Life You Love with Callie Premiere",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Consumer",
+                "Shopping"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19229583_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "72529",
+        "station": {
+            "stationId": "72529",
+            "callSign": "KAZTCD3",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_ll_h3_ab.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "7.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP037168040001",
+            "rootId": "19229584",
+            "seriesId": "19229583",
+            "subType": "Series",
+            "title": "Create The Life You Love with Callie Premiere",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Consumer",
+                "Shopping"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19229583_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "72186",
+        "station": {
+            "stationId": "72186",
+            "callSign": "KAZTDT3",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "7.3"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "Live",
+            "New"
+        ],
+        "channels": [
+            "38.4"
+        ],
+        "program": {
+            "tmsId": "EP037011720011",
+            "rootId": "19212252",
+            "seriesId": "19169523",
+            "subType": "Series",
+            "title": "Safe Living: Dr. Dubrow",
+            "episodeTitle": "WONDER.FULL. NEW YEARS WEEKEND",
+            "releaseYear": 2020,
+            "releaseDate": "2020-12-31",
+            "origAirDate": "2020-12-31",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Safe Living: Dr. Dubrow.",
+            "shortDescription": "Safe Living: Dr. Dubrow.",
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19169523_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "74521",
+        "station": {
+            "stationId": "74521",
+            "callSign": "K14RKD4",
+            "affiliateId": "Independent",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "uri": "sources/generic/generic_sources_h3.png"
+            },
+            "channel": "38.4"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T16:00Z",
+        "duration": 60,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "61.2"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP037168040001",
+            "rootId": "19229584",
+            "seriesId": "19229583",
+            "subType": "Series",
+            "title": "Create The Life You Love with Callie Premiere",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Consumer",
+                "Shopping"
+            ],
+            "ratings": [
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p19229583_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "97506",
+        "station": {
+            "stationId": "97506",
+            "callSign": "KASWDT2",
+            "affiliateCallSign": "HSN",
+            "affiliateId": "10269",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s10269_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "61.2"
+        }
+    },
+    {
+        "startTime": "2021-01-01T15:00Z",
+        "endTime": "2021-01-01T17:00Z",
+        "duration": 120,
+        "qualifiers": [
+            "CC",
+            "New"
+        ],
+        "channels": [
+            "48.3"
+        ],
+        "ratings": [
+            {
+                "body": "USA Parental Rating",
+                "code": "TVG"
+            }
+        ],
+        "program": {
+            "tmsId": "EP035782890017",
+            "rootId": "19268444",
+            "seriesId": "18622597",
+            "subType": "Series",
+            "title": "Finally Friday",
+            "episodeTitle": "Finally Friday with Lissa and Leslie (Jan 1st, 2021 10:00)",
+            "releaseYear": 2021,
+            "releaseDate": "2021-01-01",
+            "origAirDate": "2021-01-01",
+            "titleLang": "en",
+            "descriptionLang": "en",
+            "entityType": "Episode",
+            "genres": [
+                "Shopping"
+            ],
+            "longDescription": "Join us for a look at all of our favorite items from JTV's latest events! Kick your weekend off with some amazing deals on jewelry you'll love to love.",
+            "topCast": [
+                "Lissa Daigle",
+                "Leslie Delery"
+            ],
+            "ratings": [
+                {
+                    "body": "Canadian Parental Rating",
+                    "code": "G"
+                },
+                {
+                    "body": "R\u00e9gie du cin\u00e9ma",
+                    "code": "G"
+                },
+                {
+                    "body": "USA Parental Rating",
+                    "code": "TVG"
+                }
+            ],
+            "preferredImage": {
+                "width": "240",
+                "height": "360",
+                "uri": "assets/p18622597_b_v5_aa.jpg",
+                "category": "Banner-L1",
+                "text": "yes",
+                "primary": "true",
+                "tier": "Series"
+            }
+        },
+        "stationId": "107789",
+        "station": {
+            "stationId": "107789",
+            "callSign": "KDPHLD3",
+            "videoQuality": {
+                "signalType": "Digital",
+                "videoType": "SDTV"
+            },
+            "preferredImage": {
+                "width": "360",
+                "height": "270",
+                "uri": "assets/s16604_h3_aa.png",
+                "category": "Logo",
+                "primary": "true"
+            },
+            "channel": "48.3"
+        }
+    }
+]
