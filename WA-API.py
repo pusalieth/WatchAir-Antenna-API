@@ -3,6 +3,8 @@ import xmltodict
 import secrets
 import variables
 import sys
+import urllib
+import datetime
 
 class API():
     def __init__(self, options):
@@ -28,7 +30,9 @@ class API():
     def sendCMD(self, PARAMS):
         response = requests.get(self.device_address, params=PARAMS)
         if(self.debug):
-            print(response.text)
+            print("Request made: %s&%s" % (self.device_address, urllib.parse.urlencode(PARAMS)))
+            print("Response from request: \n%s" % response.text)
+            print("End of Response")
 
         return xmltodict.parse(response.text)
 
@@ -40,7 +44,7 @@ class API():
                   'clientUserId': self.email,
                   'clientUserProfile': self.user_name}
         self.sessionid = self.sendCMD(params)['MML']['Body']['SessionID']
-        print("Connected with session id: %s" % self.sessionid)
+        print("Device connected with session id: %s" % self.sessionid)
 
     def disconnect(self):
         para = {'cmd': 'disconnect',
@@ -136,8 +140,7 @@ class API():
 
     def downloadFirmware(self):
         url = 'http://cf.watchairtv.com/sys/'
-        # need a way of getting this filename
-        filename = 'WatchAir_sw_v1.9.1_1521007676.zip'
+        filename = 'WatchAir_sw_v1.9.1_1521007676.zip' # need a way of getting this filename
         response = requests.get(url + filename)
         file = open(filename, 'wb')
         file.write(response.content)
@@ -187,15 +190,21 @@ class API():
         return xmltodict.parse(response.text)
 
     def getLineup(self):
-        url = 'http://data.tmsapi.com/v1.1/lineups/USA-OTA' + self.zipcode + '/grid'
+        url = 'http://data.tmsapi.com/v1.1/lineups/USA-OTA%s/grid' % self.zipcode
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+        current_hour = datetime.datetime.now().strftime("%H")
         PARAMS = {'stationId': '66570',  # don't know what these values mean, and probably need work
-                  'startDateTime': '2019-12-06T03:00Z',
-                  'endDateTime': '2019-12-06T04-00Z',
+                  'startDateTime': '%sT%s:00Z' % (current_date, current_hour),
+                  'endDateTime': '%sT%s-00Z' % (current_date, str(int(current_hour) + 1)),
                   'imageSize': 'Sm',
                   'imageAspectTV': '16x9',
                   'api_key': self.api_key}
         response = requests.get(url, params=PARAMS)
-        print(response.text)
+        if(self.debug):
+            print("Request made: %s&%s" % (url, urllib.parse.urlencode(PARAMS)))
+            print("Response from request: \n%s" % response.text)
+            print("End of Response")
+
         return xmltodict.parse(response.text)
 
 
