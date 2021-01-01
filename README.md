@@ -22,6 +22,14 @@ Then, run the WA-API script followed by the function you want to use.
 Example:
 `python WA-API.py startScan`
 
+## Device Details
+* The device displays a directory listing on port 80, with /mnt/data, and ?/hls as the default uris. Streaming port is 8080. /mnt seems to be considered web root
+* 7236.9 MiB capacity internal storage. Default 3.8 GiB used, with 3.9 MiB reserved. (Probably the MBR or EFI section)
+* recordings stored at /mnt/data/media/recordings/
+* DeviceId: `WA29D9C6` , DeviceModel: `EPUS-100W` 
+* Uses `linux 3.4.39 #57` on firmware 1.9.1
+* The WiFi interface is made by `Tabluae Limited`
+
 ### Backstory
 To bad this thing failed, as it's pretty great in theory.
 The problem is it was made to do something most people will never use it for (network ota tuner). Plus it was originally over price at $200. I bought it on sale at Fry's for $25.
