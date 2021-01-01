@@ -7,7 +7,7 @@ The intent of this API is to allow control, and setup of the WatchAir Antenna fr
 (Update: 12/31/2020) Seems the original company went out of business. The lineup no longer works since it depended on gracenote services (which is a paid service). Looks like this software may be the only EOL support.
 
 ## Usage
-Create a python script with a dictionary named vars, with the following variables given below. The password field is the password to your WiFi.
+Create a python script with a dictionary named vars, with the following variables given below. The password field is the password to your WiFi. The api key is linked to gracenote. You'll need to create a public account, and [register](https://developer.tmsapi.com) an application to get the api key.
 ```
 vars = {
     'api_key': '',

@@ -6,6 +6,7 @@ import sys
 import urllib
 import datetime
 
+
 class API():
     def __init__(self, options):
         if('--debug' in options):
@@ -13,7 +14,7 @@ class API():
         else:
             self.debug = False
 
-        self.ip_address = '192.168.1.115' # set this to your own LAN IP
+        self.ip_address = '192.168.1.115'  # set this to your own LAN IP
         self.device_address = 'http://%s/mml.do' % self.ip_address
         self.email = secrets.vars['email']
         self.user_name = secrets.vars['user']
@@ -30,7 +31,8 @@ class API():
     def sendCMD(self, PARAMS):
         response = requests.get(self.device_address, params=PARAMS)
         if(self.debug):
-            print("Request made: %s&%s" % (self.device_address, urllib.parse.urlencode(PARAMS)))
+            print("Request made: %s?%s" %
+                  (self.device_address, urllib.parse.urlencode(PARAMS)))
             print("Response from request: \n%s" % response.text)
             print("End of Response")
 
@@ -140,7 +142,8 @@ class API():
 
     def downloadFirmware(self):
         url = 'http://cf.watchairtv.com/sys/'
-        filename = 'WatchAir_sw_v1.9.1_1521007676.zip' # need a way of getting this filename
+        # need a way of getting this filename
+        filename = 'WatchAir_sw_v1.9.1_1521007676.zip'
         response = requests.get(url + filename)
         file = open(filename, 'wb')
         file.write(response.content)
@@ -180,28 +183,63 @@ class API():
                   'tacodec': 'aac'}
         self.video_stream = self.sendCMD(params)
 
-    def getArtwork(self, asset_id='p10005060_st_h13_ac'):
-        self.asset_name = '%s.jpg' % asset_id  # this probably changes and needs work
-        url = 'http://epic.tmsimg.com/assets/' + self.asset_name
+    def getArtwork(self, asset_id='p10005060_st_h13_ac'):  # wth does this come from?
+        asset_name = '%s.jpg' % asset_id
+        url = 'http://epic.tmsimg.com/assets/%s' % asset_name
         PARAMS = {'w': '240',
                   'h': '135'}
         response = requests.get(url, params=PARAMS)
-        print(response.text)
-        return xmltodict.parse(response.text)
+        with open('%s' % asset_name, 'wb') as file:
+            file.write(response.content)
 
-    def getLineup(self):
-        url = 'http://data.tmsapi.com/v1.1/lineups/USA-OTA%s/grid' % self.zipcode
-        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
-        current_hour = datetime.datetime.now().strftime("%H")
-        PARAMS = {'stationId': '66570',  # don't know what these values mean, and probably need work
-                  'startDateTime': '%sT%s:00Z' % (current_date, current_hour),
-                  'endDateTime': '%sT%s-00Z' % (current_date, str(int(current_hour) + 1)),
-                  'imageSize': 'Sm',
-                  'imageAspectTV': '16x9',
-                  'api_key': self.api_key}
+    def getLineups(self):
+        # http://data.tmsapi.com/v1.1/lineups?country=USA&postalCode=27713&api_key=1234567890
+        url = 'http://data.tmsapi.com/v1.1/lineups'
+        PARAMS = {
+            'country': 'USA',
+            'postalCode': self.zipcode,
+            'api_key': self.api_key}
         response = requests.get(url, params=PARAMS)
         if(self.debug):
-            print("Request made: %s&%s" % (url, urllib.parse.urlencode(PARAMS)))
+            print("Request made: %s?%s" %
+                  (url, urllib.parse.urlencode(PARAMS)))
+            print("Response from request: \n%s" % response.text)
+            print("End of Response")
+
+        return xmltodict.parse(response.text)
+
+    def getLineupGrid(self):
+        # NCxxxxx is obtained by lineupId
+        # http://data.tmsapi.com/v1.1/lineups/USA-NC32461-X/grid?startDateTime=2012-02-20T14:00Z&api_key=1234567890
+        url = 'http://data.tmsapi.com/v1.1/lineups/USA-OTA%s-X/grid' % self.zipcode
+        current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+        current_hour = datetime.datetime.now().strftime("%H")
+        PARAMS = {
+            #'country': 'USA',
+            #'postalCode': self.zipcode,
+            # 'stationId': '66570',  # don't know what these values mean, and probably need work
+            'startDateTime': '%sT%s:00Z' % (current_date, current_hour),
+            # 'endDateTime': '%sT%s-00Z' % (current_date, str(int(current_hour) + 1)),
+            # 'imageSize': 'Sm',
+            # 'imageAspectTV': '16x9',
+            'api_key': self.api_key}
+        response = requests.get(url, params=PARAMS)
+        if(self.debug):
+            print("Request made: %s?%s" %
+                  (url, urllib.parse.urlencode(PARAMS)))
+            print("Response from request: \n%s" % response.text)
+            print("End of Response")
+
+        return xmltodict.parse(response.text)
+
+    def getLineupChannels(self):
+        # http://data.tmsapi.com/v1.1/lineups/USA-NY55899-X/channels?api_key=1234567890
+        url = 'http://data.tmsapi.com/v1.1/lineups/USA-OTA%s-X/channels' % self.zipcode
+        PARAMS = {'api_key': self.api_key}
+        response = requests.get(url, params=PARAMS)
+        if(self.debug):
+            print("Request made: %s?%s" %
+                  (url, urllib.parse.urlencode(PARAMS)))
             print("Response from request: \n%s" % response.text)
             print("End of Response")
 
