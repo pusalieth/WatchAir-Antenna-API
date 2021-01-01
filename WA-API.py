@@ -183,7 +183,8 @@ class API():
                   'tacodec': 'aac'}
         self.video_stream = self.sendCMD(params)
 
-    def getArtwork(self, asset_id='p10005060_st_h13_ac'):  # wth does this come from?
+    def getArtwork(self, asset_id='p10005060_st_h13_ac'):
+        # id comes from grid call, response['airings']['preferredImage']['uri'].split('/')[1]
         asset_name = '%s.jpg' % asset_id
         url = 'http://epic.tmsimg.com/assets/%s' % asset_name
         PARAMS = {'w': '240',
