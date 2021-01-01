@@ -1,91 +1,35 @@
 import requests
 import xmltodict
 import secrets
+import variables
+import sys
 
+class API():
+    def __init__(self, options):
+        if('--debug' in options):
+            self.debug = True
+        else:
+            self.debug = False
 
-class API:
-    def __init__(self):
-        self.device_address = 'http://' + \
-            secrets.vars['ip_address'] + '/mml.do'
+        self.ip_address = '192.168.1.115' # set this to your own LAN IP
+        self.device_address = 'http://%s/mml.do' % self.ip_address
         self.email = secrets.vars['email']
         self.user_name = secrets.vars['user']
         self.ssid = secrets.vars['ssid']
         self.password = secrets.vars['password']
         self.api_key = secrets.vars['api_key']
         self.zipcode = secrets.vars['zipcode']
+        self.frequencies = variables.frequencies
         self.connect()
-        self.frequencies = ("57000000,6000000,"
-                            "63000000,6000000,"
-                            "69000000,6000000,"
-                            "79000000,6000000,"
-                            "85000000,6000000,"
-                            "177000000,7000000,"
-                            "183000000,7000000,"
-                            "189000000,7000000,"
-                            "195000000,7000000,"
-                            "201000000,7000000,"
-                            "207000000,7000000,"
-                            "213000000,7000000,"
-                            "473000000,7000000,"
-                            "479000000,7000000,"
-                            "485000000,7000000,"
-                            "491000000,7000000,"
-                            "497000000,7000000,"
-                            "503000000,7000000,"
-                            "509000000,7000000,"
-                            "515000000,7000000,"
-                            "521000000,7000000,"
-                            "527000000,7000000,"
-                            "533000000,7000000,"
-                            "539000000,7000000,"
-                            "545000000,7000000,"
-                            "551000000,7000000,"
-                            "557000000,7000000,"
-                            "563000000,7000000,"
-                            "569000000,7000000,"
-                            "575000000,7000000,"
-                            "581000000,7000000,"
-                            "587000000,7000000,"
-                            "593000000,7000000,"
-                            "599000000,7000000,"
-                            "605000000,7000000,"
-                            "611000000,7000000,"
-                            "617000000,7000000,"
-                            "623000000,7000000,"
-                            "629000000,7000000,"
-                            "635000000,7000000,"
-                            "641000000,7000000,"
-                            "647000000,7000000,"
-                            "653000000,7000000,"
-                            "659000000,6000000,"
-                            "665000000,6000000,"
-                            "671000000,6000000,"
-                            "677000000,6000000,"
-                            "683000000,6000000,"
-                            "689000000,7000000,"
-                            "695000000,7000000,"
-                            "701000000,6000000,"
-                            "707000000,6000000,"
-                            "713000000,6000000,"
-                            "719000000,6000000,"
-                            "725000000,6000000,"
-                            "731000000,6000000,"
-                            "737000000,6000000,"
-                            "743000000,6000000,"
-                            "749000000,6000000,"
-                            "755000000,6000000,"
-                            "761000000,6000000,"
-                            "767000000,6000000,"
-                            "773000000,6000000,"
-                            "779000000,6000000,"
-                            "785000000,6000000,"
-                            "791000000,6000000,"
-                            "797000000,6000000,"
-                            "803000000,6000000")
+
+        if(len(sys.argv) > 1 and sys.argv[1] != '--debug'):
+            getattr(self, '%s' % sys.argv[1])()
 
     def sendCMD(self, PARAMS):
         response = requests.get(self.device_address, params=PARAMS)
-        print(response.text)
+        if(self.debug):
+            print(response.text)
+
         return xmltodict.parse(response.text)
 
     def connect(self):
@@ -96,6 +40,7 @@ class API:
                   'clientUserId': self.email,
                   'clientUserProfile': self.user_name}
         self.sessionid = self.sendCMD(params)['MML']['Body']['SessionID']
+        print("Connected with session id: %s" % self.sessionid)
 
     def disconnect(self):
         para = {'cmd': 'disconnect',
@@ -155,12 +100,12 @@ class API:
         self.service = self.sendCMD(para)
         print(self.service)
 
-    def startRecording(self):
+    def startRecording(self, filename, recording_length):
         para = {'cmd': 'startrecording',
                 'sessionid': self.sessionid,
                 'mediapath': 'data',
-                'duration': '2054',
-                'fileprefix': '3TV+News+a...'}  # Needs work
+                'duration': '%s' % recording_length,
+                'fileprefix': '%s' % filename}  # Needs work
         self.record = self.sendCMD(para)
 
     def stopRecording(self):
@@ -211,11 +156,11 @@ class API:
                   'fullpath': 'data/firmware.zip'}
         self.firmware = self.sendCMD(params)
 
-    def streamVideo(self):
+    def streamVideo(self, frequency):
         params = {'cmd': 'startstreamingdata',
                   'sessionid': self.sessionid,
                   'uniqueid': '53300301',
-                  'freq': '533000000',  # needs work to be dynamic
+                  'freq': '%s' % frequency,  # needs work to be dynamic
                   'channeltsid': '187',
                   'sourceId': '1',
                   'force': '0',
@@ -232,9 +177,8 @@ class API:
                   'tacodec': 'aac'}
         self.video_stream = self.sendCMD(params)
 
-    def getArtwork(self):
-        self.asset_name = 'p10005060_st_h13_ac' + \
-            '.jpg'  # this probably changes and needs work
+    def getArtwork(self, asset_id='p10005060_st_h13_ac'):
+        self.asset_name = '%s.jpg' % asset_id  # this probably changes and needs work
         url = 'http://epic.tmsimg.com/assets/' + self.asset_name
         PARAMS = {'w': '240',
                   'h': '135'}
@@ -256,4 +200,4 @@ class API:
 
 
 if __name__ == "__main__":
-    WA_Antenna = API()
+    WA_Antenna = API(sys.argv)
