@@ -23,7 +23,8 @@ Example:
 `python WA-API.py startScan`
 
 ## Device Details
-* The device displays a directory listing on port 80, with /mnt/data, and ?/hls as the default uris. Streaming port is 8080. /mnt seems to be considered web root
+* The device displays a directory listing on port 80, with /mnt/data, ?/hls as the default uris. /mnt seems to be considered web root
+* Streaming port is 8080.
 * 7236.9 MiB capacity internal storage. Default 3.8 GiB used, with 3.9 MiB reserved. (Probably the MBR or EFI section)
 * recordings stored at /mnt/data/media/recordings/
 * DeviceId: `WA29D9C6` , DeviceModel: `EPUS-100W` 

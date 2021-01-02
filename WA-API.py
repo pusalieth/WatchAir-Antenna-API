@@ -14,10 +14,10 @@ class API():
         else:
             self.debug = False
 
-        self.ip_address = '192.168.1.115'  # set this to your own LAN IP
+        self.ip_address = '192.168.21.1'  # set this to your own LAN IP
         self.device_address = 'http://%s/mml.do' % self.ip_address
         self.email = secrets.vars['email']
-        self.user_name = secrets.vars['user']
+        self.username = secrets.vars['user']
         self.ssid = secrets.vars['ssid']
         self.password = secrets.vars['password']
         self.api_key = secrets.vars['api_key']
@@ -49,7 +49,7 @@ class API():
             'force': '1',
             'timeout': '86400',
             'clientUserId': self.email,
-            'clientUserProfile': self.user_name
+            'clientUserProfile': self.username
         }
         self.sessionid = self.sendCMD(params)['MML']['Body']['SessionID']
         print("Device connected with session id: %s" % self.sessionid)
@@ -57,23 +57,23 @@ class API():
     def disconnect(self):
         para = {
             'cmd': 'disconnect',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.sendCMD(para)
 
     def getHomeNetworks(self):
         para = {
             'cmd': 'gethomenetworks',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.wifi = self.sendCMD(para)
 
     def setWiFiNetwork(self):
         params = {
             'cmd': 'addnetwork',
-            'sessionid': str(self.sessionid),
-            'networkid': self.SSID,
-            'user': self.user_name,
+            'sessionid': self.sessionid,
+            'networkid': self.ssid,
+            'user': self.username,
             'password': self.password,
             'priority': '0'
         }
@@ -82,7 +82,7 @@ class API():
     def getStorageStatus(self):
         para = {
             'cmd': 'getmediapaths',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.storage = self.sendCMD(
             para)['MML']['Body']['Devices']['MediaDevice']
@@ -90,21 +90,28 @@ class API():
     def getPVRFileList(self):
         para = {
             'cmd': 'getpvrfilelist',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.pvr = self.sendCMD(para)['MML']['Body']['PVRFiles']['PVRFile']
 
     def getSignalStatus(self):
         para = {
             'cmd': 'getstatusall',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.status = self.sendCMD(para)['MML']['Body']['SignalStatistics']
+
+    def reboot(self):
+        para = {
+            'cmd': 'reboot',
+            'sessionid': self.sessionid
+        }
+        self.status = self.sendCMD(para)
 
     def getINAmode(self):
         para = {
             'cmd': 'getInamode',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.mode = self.sendCMD(para)
         print(self.mode)
@@ -112,7 +119,7 @@ class API():
     def setINAmode(self):
         params = {
             'cmd': 'setInamode',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'mode': '1'
         }
         self.mode = self.sendCMD(params)
@@ -120,7 +127,7 @@ class API():
     def getDeviceInfo(self):
         para = {
             'cmd': 'getdeviceinfo',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.device_info = self.sendCMD(para)['MML']['Body']['DeviceInfo']
         print(self.device_info)
@@ -129,7 +136,7 @@ class API():
         uniqueid = '53300301'
         para = {
             'cmd': 'getserviceinformationlists',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'uniqueid': "%s" % uniqueid
         }
         self.service = self.sendCMD(para)
@@ -138,7 +145,7 @@ class API():
     def startRecording(self, filename, recording_length):
         para = {
             'cmd': 'startrecording',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'mediapath': 'data',
             'duration': '%s' % str(recording_length),
             'fileprefix': '%s' % str(filename)
@@ -148,14 +155,14 @@ class API():
     def stopRecording(self):
         para = {
             'cmd': 'stoprecording',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.record = self.sendCMD(para)
 
     def startScan(self):
         para = {
             'cmd': 'startscan',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'force': '1',
             'freqbwlist': self.frequencies,
             'location': 'Location1'
@@ -165,7 +172,7 @@ class API():
     def getScanStatus(self):
         para = {
             'cmd': 'getscanstatus',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.scan = self.sendCMD(para)['MML']['Body']['ScanStatus']
         print(self.scan)
@@ -173,7 +180,7 @@ class API():
     def stopScan(self):
         params = {
             'cmd': 'stopscan',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'discardservicesfound': '0',
             'eraseservicelist': '1'
         }
@@ -192,26 +199,27 @@ class API():
     def upgradeFirmwarePrepare(self):
         para = {
             'cmd': 'upgradefirmwareprepare',
-            'sessionid': str(self.sessionid)
+            'sessionid': self.sessionid
         }
         self.firmware = self.sendCMD(para)
 
     def pushFile(self):
         params = {
             'cmd': 'pushfile',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'force': '1',
             'fullpath': 'data/firmware.zip'
         }
         self.firmware = self.sendCMD(params)
 
-    def streamVideo(self, uniqueid=None, frequency=None, channel_ts_id=None): # needs work to be dynamic
+    # needs work to be dynamic
+    def streamVideo(self, uniqueid=None, frequency=None, channel_ts_id=None):
         uniqueid = '53300301'
         frequency = '533000000'
         channel_ts_id = '187'
         params = {
             'cmd': 'startstreamingdata',
-            'sessionid': str(self.sessionid),
+            'sessionid': self.sessionid,
             'uniqueid': '%s' % str(uniqueid),
             'freq': '%s' % str(frequency),
             'channeltsid': '%s' % str(channel_ts_id),
@@ -309,7 +317,8 @@ class API():
         }
         response = requests.get(url, params=PARAMS)
         if(self.debug):
-            print("Request made: %s?%s" % (url, urllib.parse.urlencode(PARAMS)))
+            print("Request made: %s?%s" %
+                  (url, urllib.parse.urlencode(PARAMS)))
             if(len(response.text) > 100):
                 with open('response.json', 'wb') as file:
                     file.write(response.content)
@@ -318,7 +327,6 @@ class API():
             print("End of Response")
 
         return response.text
-
 
 
 if __name__ == "__main__":
