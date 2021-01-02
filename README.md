@@ -24,7 +24,9 @@ Example:
 
 ## Device Details
 * The device displays a directory listing on port 80, with /mnt/data, ?/hls as the default uris. /mnt seems to be considered web root
-* Streaming port is 8080.
+* Streaming port is 8080. The hls directory is a temporary storage directory for streaming channels. 
+* * The streaming url will be http://\[root]:8080/hls/live\[uniqueId]\[:-1]S\[uniqueId]B\[??]00.m3u8.
+* * M3U8 is a playlist text file for h264 encoded streams in a mp4 container.
 * 7236.9 MiB capacity internal storage. Default 3.8 GiB used, with 3.9 MiB reserved. (Probably the MBR or EFI section)
 * recordings stored at /mnt/data/media/recordings/
 * DeviceId: `WA29D9C6` , DeviceModel: `EPUS-100W` 

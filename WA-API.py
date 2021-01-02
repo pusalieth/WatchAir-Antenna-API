@@ -22,7 +22,8 @@ class API():
         self.password = secrets.vars['password']
         self.api_key = secrets.vars['api_key']
         self.zipcode = secrets.vars['zipcode']
-        self.frequencies = variables.frequencies
+        self.tuneable_frequencies = variables.tuneable_frequencies
+        self.scanable_frequencies = variables.scanable_frequencies
         self.connect()
 
         if(len(sys.argv) > 1 and sys.argv[1] != '--debug'):
@@ -164,7 +165,7 @@ class API():
             'cmd': 'startscan',
             'sessionid': self.sessionid,
             'force': '1',
-            'freqbwlist': self.frequencies,
+            'freqbwlist': self.scanable_frequencies,
             'location': 'Location1'
         }
         self.scan = self.sendCMD(para)
@@ -186,14 +187,13 @@ class API():
         }
         self.scan = self.sendCMD(params)
 
-    def downloadFirmware(self):
-        url = 'http://cf.watchairtv.com/sys/'
+    def downloadFirmware(self, filename=None):
         # need a way of getting this filename
         filename = 'WatchAir_sw_v1.9.1_1521007676.zip'
-        response = requests.get(url + filename)
-        file = open(filename, 'wb')
-        file.write(response.content)
-        file.close()
+        response = requests.get('http://cf.watchairtv.com/sys/%s' % filename)
+        with open(filename, 'wb') as file:
+            file.write(response.content)
+        
         self.firmware = xmltodict.parse(response.text)
 
     def upgradeFirmwarePrepare(self):
@@ -214,28 +214,13 @@ class API():
 
     # needs work to be dynamic
     def streamVideo(self, uniqueid=None, frequency=None, channel_ts_id=None):
-        uniqueid = '53300301'
-        frequency = '533000000'
-        channel_ts_id = '187'
+        uniqueid = '53300305'
+        frequency = self.tuneable_frequencies['2']
         params = {
             'cmd': 'startstreamingdata',
             'sessionid': self.sessionid,
             'uniqueid': '%s' % str(uniqueid),
-            'freq': '%s' % str(frequency),
-            'channeltsid': '%s' % str(channel_ts_id),
-            'sourceId': '1',
-            'force': '0',
-            'tvbps': '5000000',
-            'vpid': '49',
-            'apid': '52',
-            'apid2': '53',
-            'tvresolution': '1280x720',
-            'pretune': '0',
-            'tvcontainer': 'ts',
-            'tvfps': '30',
-            'tabps': '128000',
-            'tvcodec': 'h264',
-            'tacodec': 'aac'
+            'freq': '%s' % str(frequency)
         }
         self.video_stream = self.sendCMD(params)
 
